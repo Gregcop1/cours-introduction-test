@@ -6,6 +6,15 @@ const counter = {
 
     return source + 1;
   },
+  incrementByX: (source, gap) => {
+    let result = source;
+
+    for (let i = 0; i < gap; i++) {
+      result = counter.increment(result);
+    }
+
+    return result;
+  },
 };
 
 module.exports = counter;
