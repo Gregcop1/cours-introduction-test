@@ -1,21 +1,19 @@
 const counter = require('./counter');
 
 describe('increment', () => {
-  it('should throw if with no parameter', () => {
+  it('should throw on call without parameter', () => {
     expect(() => counter.increment()).toThrow();
   });
 
-  it('should throw if with NaN source', () => {
+  it('should throw with NaN source', () => {
     expect(() => counter.increment('hey')).toThrow();
   });
 
   it('should increment', () => {
     expect(counter.increment(1)).toBe(2);
   });
-});
 
-describe('incrementByX', () => {
-    it('should increment by a specific number', () => {
-      expect(counter.incrementByX(1, 5)).toBe(6);
-    })
+  it('should increment by a specific number', () => {
+    expect(counter.increment(1, 5)).toBe(6);
+  });
 });
