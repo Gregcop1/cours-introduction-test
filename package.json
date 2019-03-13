@@ -4,5 +4,13 @@
   "main": "index.js",
   "repository": "git@github.com:Gregcop1/cours-introduction-test.git",
   "author": "Grégory Copin <gregcop1@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "test": "cucumber-js"
+  },
+  "devDependencies": {
+    "cucumber": "^5.1.0",
+    "expect": "^24.5.0",
+    "puppeteer": "^1.13.0"
+  }
 }
