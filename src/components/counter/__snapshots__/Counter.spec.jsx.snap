@@ -1,0 +1,101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Counter should accept default value override 1`] = `
+<div
+  className="counter"
+>
+  <button
+    className="btn-decrement"
+    onClick={[Function]}
+  >
+    -
+  </button>
+  <input
+    onChange={[Function]}
+    type="text"
+    value={1}
+  />
+  <button
+    className="btn-increment"
+    onClick={[Function]}
+  >
+    +
+  </button>
+</div>
+`;
+
+exports[`Counter should decrement value when a click on - button is triggered 1`] = `
+<Counter>
+  <div
+    className="counter"
+  >
+    <button
+      className="btn-decrement"
+      onClick={[Function]}
+    >
+      -
+    </button>
+    <input
+      onChange={[Function]}
+      type="text"
+      value={-1}
+    />
+    <button
+      className="btn-increment"
+      onClick={[Function]}
+    >
+      +
+    </button>
+  </div>
+</Counter>
+`;
+
+exports[`Counter should increment value when a click on + button is triggered 1`] = `
+<Counter>
+  <div
+    className="counter"
+  >
+    <button
+      className="btn-decrement"
+      onClick={[Function]}
+    >
+      -
+    </button>
+    <input
+      onChange={[Function]}
+      type="text"
+      value={1}
+    />
+    <button
+      className="btn-increment"
+      onClick={[Function]}
+    >
+      +
+    </button>
+  </div>
+</Counter>
+`;
+
+exports[`Counter should render the default view : Counter + 2 buttons 1`] = `
+<div
+  className="counter"
+>
+  <button
+    className="btn-decrement"
+    onClick={[Function]}
+  >
+    -
+  </button>
+  <input
+    onChange={[Function]}
+    type="text"
+    value={0}
+  />
+  <button
+    className="btn-increment"
+    onClick={[Function]}
+  >
+    +
+  </button>
+</div>
+`;

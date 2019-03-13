@@ -9,9 +9,9 @@ export const Counter = ({ defaultValue = 0 }) => {
 
   return (
     <div className="counter">
-      <button onClick={decrement}>-</button>
+      <button className="btn-decrement" onClick={decrement}>-</button>
       <input type="text" value={value} onChange={onChange} />
-      <button onClick={increment}>+</button>
+      <button className="btn-increment" onClick={increment}>+</button>
     </div>
   )
 };
